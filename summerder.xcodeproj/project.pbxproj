@@ -7,21 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B174DD51F226B0A004C996C /* riri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B174DD41F226B0A004C996C /* riri.jpg */; };
+		2B174DD91F226DD3004C996C /* hime.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B174DD81F226DD3004C996C /* hime.jpg */; };
+		2B174DDB1F226F88004C996C /* hitoho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B174DDA1F226F88004C996C /* hitoho.jpg */; };
+		2B174DDD1F226FB7004C996C /* hori.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B174DDC1F226FB7004C996C /* hori.jpg */; };
+		2B174DE71F22732A004C996C /* anna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B174DDE1F22732A004C996C /* anna.jpg */; };
+		2B174DE81F22732A004C996C /* banbi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B174DDF1F22732A004C996C /* banbi.jpg */; };
+		2B174DE91F22732A004C996C /* emili.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B174DE01F22732A004C996C /* emili.jpg */; };
+		2B174DEA1F22732A004C996C /* kisshi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B174DE11F22732A004C996C /* kisshi.jpg */; };
+		2B174DEC1F22732A004C996C /* mayu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B174DE31F22732A004C996C /* mayu.jpg */; };
+		2B174DED1F22732A004C996C /* moeka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B174DE41F22732A004C996C /* moeka.jpg */; };
+		2B174DEF1F22732A004C996C /* yo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B174DE61F22732A004C996C /* yo.jpg */; };
+		2B174DF11F227447004C996C /* uzaki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B174DF01F227447004C996C /* uzaki.jpg */; };
+		2B174DF51F227528004C996C /* moru.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B174DF41F227528004C996C /* moru.jpg */; };
+		2B174DF71F227656004C996C /* koki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B174DF61F227656004C996C /* koki.jpg */; };
+		2B21DEB51F34CBD20075BB06 /* moki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B21DEB41F34CBD20075BB06 /* moki.jpg */; };
+		2B21DEB71F34D4F50075BB06 /* Sub.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B21DEB61F34D4F50075BB06 /* Sub.storyboard */; };
+		2B21DEB91F34DAF40075BB06 /* login2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B21DEB81F34DAF40075BB06 /* login2.swift */; };
+		2B21DEBB1F34E7530075BB06 /* sea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B21DEBA1F34E7530075BB06 /* sea.jpg */; };
+		2B21DEBF1F34E9D50075BB06 /* kamo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B21DEBE1F34E9D50075BB06 /* kamo.png */; };
+		2B4B145C1F0D1C21009D4246 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B145B1F0D1C21009D4246 /* login.swift */; };
+		2B4B145E1F0D1CCF009D4246 /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B145D1F0D1CCF009D4246 /* menu.swift */; };
+		2B4B14601F0D2715009D4246 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B145F1F0D2715009D4246 /* home.swift */; };
+		2B4B14621F0D29F5009D4246 /* personal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B14611F0D29F5009D4246 /* personal.swift */; };
+		2B4B14671F0D3871009D4246 /* tosh.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B14661F0D3871009D4246 /* tosh.JPG */; };
 		2B4BDACB1F0BDB4B005AC8A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BDACA1F0BDB4B005AC8A4 /* AppDelegate.swift */; };
-		2B4BDACD1F0BDB4B005AC8A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BDACC1F0BDB4B005AC8A4 /* ViewController.swift */; };
-		2B4BDAD01F0BDB4B005AC8A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4BDACE1F0BDB4B005AC8A4 /* Main.storyboard */; };
+		2B4BDACD1F0BDB4B005AC8A4 /* post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BDACC1F0BDB4B005AC8A4 /* post.swift */; };
 		2B4BDAD21F0BDB4B005AC8A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4BDAD11F0BDB4B005AC8A4 /* Assets.xcassets */; };
 		2B4BDAD51F0BDB4B005AC8A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4BDAD31F0BDB4B005AC8A4 /* LaunchScreen.storyboard */; };
+		2BABBFDB1F260BC50074F6AA /* sae.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BABBFDA1F260BC50074F6AA /* sae.jpg */; };
+		2BABBFE11F272A8E0074F6AA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BABBFE01F272A8E0074F6AA /* icon.png */; };
+		419C07070DB53350F8683E1A /* Pods_summerder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C96DB199F6AE5CD2326614A /* Pods_summerder.framework */; };
+		740AE8851F25C1D2009190A8 /* for6.png in Resources */ = {isa = PBXBuildFile; fileRef = 740AE8841F25C1D2009190A8 /* for6.png */; };
+		7473B70E1F0F4BAA00AA598B /* reirei.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7473B70D1F0F4BAA00AA598B /* reirei.JPG */; };
+		7473B7101F0F4BAD00AA598B /* takk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7473B70F1F0F4BAD00AA598B /* takk.jpg */; };
+		7473B7121F0F4BB200AA598B /* micyu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7473B7111F0F4BB200AA598B /* micyu.jpg */; };
+		7473B7141F0F4BB600AA598B /* erika.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7473B7131F0F4BB600AA598B /* erika.PNG */; };
+		7473B7161F0F51D400AA598B /* forOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473B7151F0F51D400AA598B /* forOne.swift */; };
+		7473B71A1F0F9E7100AA598B /* ass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473B7191F0F9E7100AA598B /* ass.swift */; };
+		74CB59E81F14A08000864D0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CB59E71F14A08000864D0E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B174DD41F226B0A004C996C /* riri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = riri.jpg; sourceTree = "<group>"; };
+		2B174DD81F226DD3004C996C /* hime.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hime.jpg; sourceTree = "<group>"; };
+		2B174DDA1F226F88004C996C /* hitoho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hitoho.jpg; sourceTree = "<group>"; };
+		2B174DDC1F226FB7004C996C /* hori.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hori.jpg; sourceTree = "<group>"; };
+		2B174DDE1F22732A004C996C /* anna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anna.jpg; sourceTree = "<group>"; };
+		2B174DDF1F22732A004C996C /* banbi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banbi.jpg; sourceTree = "<group>"; };
+		2B174DE01F22732A004C996C /* emili.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emili.jpg; sourceTree = "<group>"; };
+		2B174DE11F22732A004C996C /* kisshi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kisshi.jpg; sourceTree = "<group>"; };
+		2B174DE31F22732A004C996C /* mayu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mayu.jpg; sourceTree = "<group>"; };
+		2B174DE41F22732A004C996C /* moeka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moeka.jpg; sourceTree = "<group>"; };
+		2B174DE61F22732A004C996C /* yo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yo.jpg; sourceTree = "<group>"; };
+		2B174DF01F227447004C996C /* uzaki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uzaki.jpg; sourceTree = "<group>"; };
+		2B174DF41F227528004C996C /* moru.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moru.jpg; sourceTree = "<group>"; };
+		2B174DF61F227656004C996C /* koki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koki.jpg; sourceTree = "<group>"; };
+		2B21DEB41F34CBD20075BB06 /* moki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moki.jpg; sourceTree = "<group>"; };
+		2B21DEB61F34D4F50075BB06 /* Sub.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sub.storyboard; sourceTree = "<group>"; };
+		2B21DEB81F34DAF40075BB06 /* login2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = login2.swift; sourceTree = "<group>"; };
+		2B21DEBA1F34E7530075BB06 /* sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea.jpg; sourceTree = "<group>"; };
+		2B21DEBE1F34E9D50075BB06 /* kamo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kamo.png; sourceTree = "<group>"; };
+		2B4B145B1F0D1C21009D4246 /* login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		2B4B145D1F0D1CCF009D4246 /* menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menu.swift; sourceTree = "<group>"; };
+		2B4B145F1F0D2715009D4246 /* home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		2B4B14611F0D29F5009D4246 /* personal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personal.swift; sourceTree = "<group>"; };
+		2B4B14661F0D3871009D4246 /* tosh.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tosh.JPG; sourceTree = "<group>"; };
 		2B4BDAC71F0BDB4B005AC8A4 /* summerder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = summerder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4BDACA1F0BDB4B005AC8A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B4BDACC1F0BDB4B005AC8A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2B4BDACF1F0BDB4B005AC8A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B4BDACC1F0BDB4B005AC8A4 /* post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = post.swift; sourceTree = "<group>"; };
 		2B4BDAD11F0BDB4B005AC8A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B4BDAD41F0BDB4B005AC8A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B4BDAD61F0BDB4B005AC8A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BABBFDA1F260BC50074F6AA /* sae.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sae.jpg; sourceTree = "<group>"; };
+		2BABBFE01F272A8E0074F6AA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		66F933083115947605269E40 /* Pods-summerder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-summerder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-summerder/Pods-summerder.debug.xcconfig"; sourceTree = "<group>"; };
+		740AE8841F25C1D2009190A8 /* for6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = for6.png; sourceTree = "<group>"; };
+		7473B70D1F0F4BAA00AA598B /* reirei.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = reirei.JPG; sourceTree = "<group>"; };
+		7473B70F1F0F4BAD00AA598B /* takk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = takk.jpg; sourceTree = "<group>"; };
+		7473B7111F0F4BB200AA598B /* micyu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = micyu.jpg; sourceTree = "<group>"; };
+		7473B7131F0F4BB600AA598B /* erika.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = erika.PNG; sourceTree = "<group>"; };
+		7473B7151F0F51D400AA598B /* forOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forOne.swift; sourceTree = "<group>"; };
+		7473B7191F0F9E7100AA598B /* ass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ass.swift; sourceTree = "<group>"; };
+		74CB59E71F14A08000864D0E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7C96DB199F6AE5CD2326614A /* Pods_summerder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_summerder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A142CBDCAE3C62964104BC /* Pods-summerder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-summerder.release.xcconfig"; path = "Pods/Target Support Files/Pods-summerder/Pods-summerder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +99,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				419C07070DB53350F8683E1A /* Pods_summerder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		222BF42F97CF899A7B313D7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C96DB199F6AE5CD2326614A /* Pods_summerder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B4B14521F0D1A0D009D4246 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B4BDACC1F0BDB4B005AC8A4 /* post.swift */,
+				2B4B145B1F0D1C21009D4246 /* login.swift */,
+				2B4B145D1F0D1CCF009D4246 /* menu.swift */,
+				2B4B145F1F0D2715009D4246 /* home.swift */,
+				2B4B14611F0D29F5009D4246 /* personal.swift */,
+				7473B7151F0F51D400AA598B /* forOne.swift */,
+				7473B7191F0F9E7100AA598B /* ass.swift */,
+				2B21DEB81F34DAF40075BB06 /* login2.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		2B4B14651F0D3832009D4246 /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				2B21DEBE1F34E9D50075BB06 /* kamo.png */,
+				2B21DEBA1F34E7530075BB06 /* sea.jpg */,
+				2B21DEB41F34CBD20075BB06 /* moki.jpg */,
+				740AE8841F25C1D2009190A8 /* for6.png */,
+				2BABBFDA1F260BC50074F6AA /* sae.jpg */,
+				2B4B14661F0D3871009D4246 /* tosh.JPG */,
+				2B174DD41F226B0A004C996C /* riri.jpg */,
+				7473B70D1F0F4BAA00AA598B /* reirei.JPG */,
+				2B174DD81F226DD3004C996C /* hime.jpg */,
+				7473B70F1F0F4BAD00AA598B /* takk.jpg */,
+				7473B7111F0F4BB200AA598B /* micyu.jpg */,
+				2B174DDA1F226F88004C996C /* hitoho.jpg */,
+				7473B7131F0F4BB600AA598B /* erika.PNG */,
+				2B174DDC1F226FB7004C996C /* hori.jpg */,
+				2B174DDE1F22732A004C996C /* anna.jpg */,
+				2B174DDF1F22732A004C996C /* banbi.jpg */,
+				2B174DE01F22732A004C996C /* emili.jpg */,
+				2B174DF01F227447004C996C /* uzaki.jpg */,
+				2B174DE11F22732A004C996C /* kisshi.jpg */,
+				2B174DF61F227656004C996C /* koki.jpg */,
+				2B174DF41F227528004C996C /* moru.jpg */,
+				2B174DE31F22732A004C996C /* mayu.jpg */,
+				2B174DE41F22732A004C996C /* moeka.jpg */,
+				2B174DE61F22732A004C996C /* yo.jpg */,
+			);
+			name = pictures;
+			sourceTree = "<group>";
+		};
 		2B4BDABE1F0BDB4B005AC8A4 = {
 			isa = PBXGroup;
 			children = (
 				2B4BDAC91F0BDB4B005AC8A4 /* summerder */,
 				2B4BDAC81F0BDB4B005AC8A4 /* Products */,
+				92C41769E9940F4A8CE11708 /* Pods */,
+				222BF42F97CF899A7B313D7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +182,25 @@
 			isa = PBXGroup;
 			children = (
 				2B4BDACA1F0BDB4B005AC8A4 /* AppDelegate.swift */,
-				2B4BDACC1F0BDB4B005AC8A4 /* ViewController.swift */,
-				2B4BDACE1F0BDB4B005AC8A4 /* Main.storyboard */,
 				2B4BDAD11F0BDB4B005AC8A4 /* Assets.xcassets */,
+				74CB59E71F14A08000864D0E /* Main.storyboard */,
+				2B21DEB61F34D4F50075BB06 /* Sub.storyboard */,
 				2B4BDAD31F0BDB4B005AC8A4 /* LaunchScreen.storyboard */,
 				2B4BDAD61F0BDB4B005AC8A4 /* Info.plist */,
+				2BABBFE01F272A8E0074F6AA /* icon.png */,
+				2B4B14651F0D3832009D4246 /* pictures */,
+				2B4B14521F0D1A0D009D4246 /* controllers */,
 			);
 			path = summerder;
+			sourceTree = "<group>";
+		};
+		92C41769E9940F4A8CE11708 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66F933083115947605269E40 /* Pods-summerder.debug.xcconfig */,
+				C5A142CBDCAE3C62964104BC /* Pods-summerder.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B4BDAD91F0BDB4B005AC8A4 /* Build configuration list for PBXNativeTarget "summerder" */;
 			buildPhases = (
+				4BB5BC8A26F9627A3E1D5E03 /* [CP] Check Pods Manifest.lock */,
 				2B4BDAC31F0BDB4B005AC8A4 /* Sources */,
 				2B4BDAC41F0BDB4B005AC8A4 /* Frameworks */,
 				2B4BDAC51F0BDB4B005AC8A4 /* Resources */,
+				81E2D00870DD47A8EA25978E /* [CP] Embed Pods Frameworks */,
+				FEA90B8057406C3DBC0FB737 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +238,7 @@
 				TargetAttributes = {
 					2B4BDAC61F0BDB4B005AC8A4 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4KNH59P48U;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,35 +266,108 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7473B7141F0F4BB600AA598B /* erika.PNG in Resources */,
+				2B174DD91F226DD3004C996C /* hime.jpg in Resources */,
 				2B4BDAD51F0BDB4B005AC8A4 /* LaunchScreen.storyboard in Resources */,
+				2B21DEBB1F34E7530075BB06 /* sea.jpg in Resources */,
+				2B174DDB1F226F88004C996C /* hitoho.jpg in Resources */,
+				2B174DDD1F226FB7004C996C /* hori.jpg in Resources */,
+				2B174DF71F227656004C996C /* koki.jpg in Resources */,
 				2B4BDAD21F0BDB4B005AC8A4 /* Assets.xcassets in Resources */,
-				2B4BDAD01F0BDB4B005AC8A4 /* Main.storyboard in Resources */,
+				2B21DEB51F34CBD20075BB06 /* moki.jpg in Resources */,
+				740AE8851F25C1D2009190A8 /* for6.png in Resources */,
+				2B174DF51F227528004C996C /* moru.jpg in Resources */,
+				2B174DEC1F22732A004C996C /* mayu.jpg in Resources */,
+				74CB59E81F14A08000864D0E /* Main.storyboard in Resources */,
+				2B174DED1F22732A004C996C /* moeka.jpg in Resources */,
+				2B174DE91F22732A004C996C /* emili.jpg in Resources */,
+				2B174DD51F226B0A004C996C /* riri.jpg in Resources */,
+				2B174DE81F22732A004C996C /* banbi.jpg in Resources */,
+				2B21DEBF1F34E9D50075BB06 /* kamo.png in Resources */,
+				2BABBFDB1F260BC50074F6AA /* sae.jpg in Resources */,
+				7473B7121F0F4BB200AA598B /* micyu.jpg in Resources */,
+				2B4B14671F0D3871009D4246 /* tosh.JPG in Resources */,
+				2B174DE71F22732A004C996C /* anna.jpg in Resources */,
+				2B21DEB71F34D4F50075BB06 /* Sub.storyboard in Resources */,
+				2B174DEF1F22732A004C996C /* yo.jpg in Resources */,
+				2B174DF11F227447004C996C /* uzaki.jpg in Resources */,
+				2BABBFE11F272A8E0074F6AA /* icon.png in Resources */,
+				7473B7101F0F4BAD00AA598B /* takk.jpg in Resources */,
+				7473B70E1F0F4BAA00AA598B /* reirei.JPG in Resources */,
+				2B174DEA1F22732A004C996C /* kisshi.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BB5BC8A26F9627A3E1D5E03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81E2D00870DD47A8EA25978E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-summerder/Pods-summerder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEA90B8057406C3DBC0FB737 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-summerder/Pods-summerder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B4BDAC31F0BDB4B005AC8A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B4BDACD1F0BDB4B005AC8A4 /* ViewController.swift in Sources */,
+				2B4B14621F0D29F5009D4246 /* personal.swift in Sources */,
+				2B4B14601F0D2715009D4246 /* home.swift in Sources */,
+				2B4B145E1F0D1CCF009D4246 /* menu.swift in Sources */,
+				7473B71A1F0F9E7100AA598B /* ass.swift in Sources */,
+				2B4BDACD1F0BDB4B005AC8A4 /* post.swift in Sources */,
+				7473B7161F0F51D400AA598B /* forOne.swift in Sources */,
 				2B4BDACB1F0BDB4B005AC8A4 /* AppDelegate.swift in Sources */,
+				2B21DEB91F34DAF40075BB06 /* login2.swift in Sources */,
+				2B4B145C1F0D1C21009D4246 /* login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2B4BDACE1F0BDB4B005AC8A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B4BDACF1F0BDB4B005AC8A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2B4BDAD31F0BDB4B005AC8A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -260,9 +476,12 @@
 		};
 		2B4BDADA1F0BDB4B005AC8A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F933083115947605269E40 /* Pods-summerder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4KNH59P48U;
 				INFOPLIST_FILE = summerder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zlia.7.summerder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +491,12 @@
 		};
 		2B4BDADB1F0BDB4B005AC8A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A142CBDCAE3C62964104BC /* Pods-summerder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4KNH59P48U;
 				INFOPLIST_FILE = summerder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zlia.7.summerder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +523,7 @@
 				2B4BDADB1F0BDB4B005AC8A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

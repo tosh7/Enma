@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NCMB
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +17,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        NCMB.setApplicationKey("9a4d34fd5424fb1617111ef75ccdd27c4fb402147e73da1d08298bfe056c520f", clientKey: "a3e2896c2ab3ef3db9b51db57a6d1fa4c281a53d4b2da92ffbba7cb6fc760532")
+        
+        let display: CGRect = UIScreen.main.bounds
+        // 取得ディスプレイに対応したStoryBoardをrootViewController(最初に表示されるもの)にする。
+        if display.size.height == 568 {
+            // iPhone 4S の場合 (Unit is Point.)
+            let storyboard = UIStoryboard(name: "Sub", bundle: nil)
+            let rootViewController: UIViewController? = storyboard.instantiateInitialViewController()
+            window?.rootViewController = rootViewController
+        }
+        else if display.size.height == 667 {
+            // iPhone 6 の場合
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let rootViewController: UIViewController? = storyboard.instantiateInitialViewController()
+            window?.rootViewController = rootViewController
+        }
+        else if display.size.height == 736 {
+            // iPhone 6 Plus の場合
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let rootViewController: UIViewController? = storyboard.instantiateInitialViewController()
+            window?.rootViewController = rootViewController
+        }
+        
         return true
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -41,6 +67,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
 }
-
