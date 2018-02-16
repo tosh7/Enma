@@ -15,17 +15,13 @@ class login2: UIViewController {
     
     var pass: String?
     
-    
-    
     @IBAction func enterkey(_ sender: Any) {
         pass = passCode.text
         
         if pass == "summer" {
-            
             passCode.text = ""
             self.movement()
         }
-        
     }
     
     @IBAction func touchID(_ sender: Any) {
@@ -42,7 +38,6 @@ class login2: UIViewController {
                     if (success) {
                         //指紋認証成功
                         NSLog("Success")
-                        //                        self.performSegue(withIdentifier: "logining", sender: nil)
                         self.movement()
                     } else {
                         //指紋認証失敗
@@ -53,7 +48,6 @@ class login2: UIViewController {
             //no Touch ID
             NSLog("An Error Occured: ￥(Error)")
         }
-        
     }
     
     func movement(){
@@ -63,17 +57,9 @@ class login2: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
-    
 }

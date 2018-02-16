@@ -14,23 +14,13 @@ class home: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
-        // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
 
     @IBAction func back(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func hd(_ sender: Any) {
-        print("7")
         number = 1
         self.performSegue(withIdentifier: "one", sender: nil)
     }
@@ -42,9 +32,7 @@ class home: UIViewController {
     
     
     @IBAction func g1(_ sender: Any) {
-//        print("1")
         number = 1
-//        print("3")
         self.performSegue(withIdentifier: "toPersonal", sender: nil)
         
     }

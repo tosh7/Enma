@@ -17,8 +17,6 @@ class ass: UIViewController {
     @IBOutlet weak var p3: UIImageView!
     @IBOutlet weak var p4: UIImageView!
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         p1.image = UIImage(named: "banbi.jpg")
@@ -27,11 +25,6 @@ class ass: UIViewController {
         p4.image = UIImage(named: "mayu.jpg")
 
         // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @IBAction func b1(_ sender: Any) {
@@ -61,7 +54,4 @@ class ass: UIViewController {
         let post = segue.destination as! post
         post.identifier = passedNumber
     }
-    
-
-    
 }

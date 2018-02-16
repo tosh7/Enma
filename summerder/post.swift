@@ -9,19 +9,13 @@
 import UIKit
 import NCMB
 
-
-
 class post: UIViewController {
-    
-    
-    @IBOutlet weak var name: UILabel!
 
+    @IBOutlet weak var name: UILabel!
     @IBOutlet weak var whatHeDid: UITextView!
     
     var namae: String?
-    
     var kotogara: String?
-    
     var identifier : Int = 0
     
 
@@ -31,41 +25,41 @@ class post: UIViewController {
         
         switch identifier {
         case 11:
-            name.text = "とし"
+            name.text = "ゆか"
         case 21:
-            name.text = "ひめ"
+            name.text = "ナタリー"
         case 12:
-            name.text = "さえ"
+            name.text = "ハイジ"
         case 22:
-            name.text = "りぃり"
+            name.text = "コーン"
         case 13:
-            name.text = "ひとちゃん"
+            name.text = "ぱにゃ"
         case 14:
-            name.text = "もる"
+            name.text = "ペドロ"
         case 15:
-            name.text = "えみりぃ"
+            name.text = "ハリちゃん"
         case 16:
-            name.text = "うーちゃん"
+            name.text = "とし"
         case 17:
-            name.text = "よう"
+            name.text = "まきじぇ"
         case 23:
-            name.text = "ほりえり"
-        case 24:
             name.text = "もえか"
+        case 24:
+            name.text = "キャニー"
         case 25:
-            name.text = "もき"
+            name.text = "ももてぃん"
         case 26:
-            name.text = "えりか"
+            name.text = "げんちゃん"
         case 27:
-            name.text = "あんな"
+            name.text = "はる"
         case 30:
-            name.text = "ばんび"
+            name.text = "こばりゅう"
         case 31:
-            name.text = "こうき"
+            name.text = "えりか"
         case 32:
-            name.text = "みっちゅ"
+            name.text = "せいな"
         case 33:
-            name.text = "まゆ"
+            name.text = "らく"
         case 1:
             name.text = "れいれい"
             
@@ -75,11 +69,6 @@ class post: UIViewController {
         default:
             break
         }
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     @IBAction func post(_ sender: Any) {
@@ -109,9 +98,7 @@ class post: UIViewController {
             //保存に成功した場合の処理
             print("保存に成功しました。objectId:\(String(describing: obj?.objectId))")
             }
-        
         })
-    
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

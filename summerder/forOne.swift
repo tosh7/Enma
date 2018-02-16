@@ -42,7 +42,4 @@ class forOne: UIViewController {
         let post = segue.destination as! post
         post.identifier = passedNumber
     }
-    
-
-    
 }
