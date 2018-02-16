@@ -10,7 +10,7 @@ import UIKit
 import NCMB
 
 class post: UIViewController {
-
+    
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var whatHeDid: UITextView!
     
@@ -18,7 +18,7 @@ class post: UIViewController {
     var kotogara: String?
     var identifier : Int = 0
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -70,12 +70,26 @@ class post: UIViewController {
             break
         }
     }
-
+    
     @IBAction func post(_ sender: Any) {
         namae = name.text;
         kotogara = whatHeDid.text;
         saveScore( namae!,  enma: kotogara! )
-        self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+        
+        let alert: UIAlertController = UIAlertController(title: "保存",
+                                                         message: "データの入力が完了しました",
+                                                         preferredStyle: .alert)
+        
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default,
+                                      handler: { action in
+                                        print("OKボタンが押されました")
+                                        self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+        }
+            )
+        )
+        
+        present(alert, animated: true, completion: nil)
+//        self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
         
     }
     
@@ -95,8 +109,8 @@ class post: UIViewController {
                 let err = error! as NSError
                 print("保存に失敗しましたエラーコード:\(err.code)")
             }else{
-            //保存に成功した場合の処理
-            print("保存に成功しました。objectId:\(String(describing: obj?.objectId))")
+                //保存に成功した場合の処理
+                print("保存に成功しました。objectId:\(String(describing: obj?.objectId))")
             }
         })
     }
